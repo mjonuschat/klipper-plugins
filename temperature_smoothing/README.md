@@ -42,7 +42,7 @@ When smoothing noisy temperature sensor readings, the Whittaker-Eilers Smoother 
 5. Restart Klipper to activate the plugin:
 
    ```bash
-   sudo systecmctl restart klipper
+   sudo systemctl restart klipper
    ```
 
 ## Using a smoothed temperature sensor
