@@ -1,12 +1,12 @@
 # Smoothing temperature sensors for Klipper
 
-These plugins implement two different flavors of a smoothing temperatur sensor for Klipper.
+These plugins implement two different flavors of a smoothing temperature sensor for Klipper.
 
-The [sgolay](./sgolay/) implementation in using a Savitzky Golay filter to implement the smoothing, the [whittaker-eilers](./whittaker-eilers/) version is using a Whittaker-Eilers Smoother
+The [sgolay](./sgolay/) implementation uses a Savitzky Golay filter to implement the smoothing, while the [whittaker-eilers](./whittaker-eilers/) version is using a Whittaker-Eilers Smoother.
 
-## Which one should I pck
+## Which one should I pick?
 
-The Whittaker-Eilers Smoother (WES) and Savitzky-Golay (SG) filter are both used for smoothing noisy data, but they have different approaches and benefits:
+The Whittaker-Eilers Smoother (WES) and Savitzky-Golay (SG) filters are both used for smoothing noisy data, but they have different approaches and benefits:
 
 Benefits of Whittaker-Eilers Smoother over Savitzky-Golay filter:
 
